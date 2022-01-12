@@ -32,7 +32,7 @@
 
         $q = $pdo->prepare($sql);
         $q->execute($task);
-        // header('Location:index.php');
+        header('Location:index.php');
     ?>
 </body>
 
